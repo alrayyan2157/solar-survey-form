@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soliel Solar Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <body>
+      <h1 id="title">Soliel Solar Survey Form</h1>
+      <p id="description">Thank you for taking time to improve the quality of our products</p>
+      <form id="survey-form">
+        <legend>Personal info</legend>
+        <label for="name" id="name-label">Name<input id="name" type="text" name="name" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label" name="email">Email<input id="email" type="email" placeholder="Enter your email" required /></label>
+        <label for="number" id="number-label">Number<input id="number" type="number" min="0000000001" max="9999999999" placeholder="Enter your number"/></label> 
+        <legend>How ofen do you use our product/service?</legend>
+        <select id="dropdown">
+          <option value="day">Daily</option>
+          <option value="week">Weekly</option>
+          <option value="month">Monthly</option>
+          <option value="quater">Quaterly</option>
+          <option value="rare">Rarely</option>
+        </select>
+        <legend>How did the product/service met your expectation?</legend>
+        <label><input class="inline" type="radio" value="excellent" name="overall-quality" required/> Excellent</label>
+        <label><input class="inline" type="radio" value="good" name="overall-quality" required/> Good</label>
+        <label><input class="inline" type="radio" value="average" name="overall-quality" required/> Average</label>
+        <label><input class="inline" type="radio" value="poor" name="overall-quality" required/> Poor</label>
+        <label><input class="inline" type="radio" value="very-poor" name="overall-quality" required/> Very Poor</label>
+        <legend>What factors are most important to you when considering solar energy?</legend>
+        <label for="saving"><input class="inline" type="checkbox" value="cost-saving" /> Cost Savings</label>
+        <label for="environment"><input class="inline" type="checkbox" value="environment" /> Environmental Impacts</label>
+        <label for="energy"><input class="inline" type="checkbox" value="energy" /> Energy Independance</label>
+         <label for="property"><input class="inline" type="checkbox" value="property" /> Increasing Property Value</label>
+         <label for="incentives"><input class="inline" type="checkbox" value="incentives" /> Government Incentives</label>
+         <label for="aesthetics"><input class="inline" type="checkbox" value="aesthetics" /> System Aesthetics</label>
+        <legend>Any additional comments or suggestions:</legend>
+          <label for="suggestions"><textarea placeholder="Enter your comments here..." rows="3" cols="30" id="comments"></textarea></label>
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </body>
+</html>
