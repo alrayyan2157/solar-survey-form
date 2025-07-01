@@ -9,4 +9,4 @@ Basic knowledge of HTML and CSS has been used to create it.
 - Validates required fields
 
 ## Live Preview
-[View the survey form live] https://alrayyan2157.github.io/solar-survey-form/
+[View the survey form live]https://alrayyan2157.github.io/solar-survey-form/
